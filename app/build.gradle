@@ -1,0 +1,26 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.exemplo.minhaescala'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.exemplo.minhaescala'
+        minSdk 23
+        targetSdk 35
+        versionCode 2
+        versionName '2.0.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+}
+
+dependencies {
+    // Modelo OCR incluido no APK: funciona OFFLINE apos instalar.
+    implementation 'com.google.mlkit:text-recognition:16.0.1'
+}

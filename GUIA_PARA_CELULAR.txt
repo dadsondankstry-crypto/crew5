@@ -1,0 +1,21 @@
+MINHA ESCALA 2.0 — POCO X7 PRO / ANDROID 16
+
+1. BAIXE o ZIP completo entregue pelo ChatGPT.
+2. No seu GitHub Manager, abra o repositório do Minha Escala.
+3. Envie o ZIP ORIGINAL para a raiz da branch main, substituindo os arquivos antigos.
+4. Confirme que existe .github/workflows/main.yml.
+5. No GitHub: Actions -> Gerar APK Minha Escala -> execução verde -> Artifacts -> MinhaEscala-APK.
+6. Baixe o artifact, extraia app-debug.apk e tente instalar.
+
+IMPORTANTE: se a atualização falhar por assinatura, NAO DESINSTALE o aplicativo anterior sem salvar os dados: perderá as fotos e fichas armazenadas dentro do app. Preserve suas fotos originais. Para atualizações futuras é necessária assinatura persistente.
+
+NO APLICATIVO:
+• Importe várias fotos de uma vez.
+• Espere OCR finalizar (offline) e verifique data e categoria de cada documento.
+• Digite o nome COMPLETO ou o MSC ID; toque 🔍 PESQUISAR.
+• Horários mostrados pelo OCR são candidatos: confira a foto e salve MANHÃ, TARDE, PAUSAS e TREINAMENTO separadamente.
+• Em Ferramentas: exporte sua busca CSV ou faça BACKUP PRIVADO ZIP com imagens e dados.
+• Não compartilhe fotos e backups de colegas em GitHub público.
+
+OBS: arquivo YAML separado está dentro do ZIP em YAML_PARA_COPIAR.yml;
+workflow executado: .github/workflows/main.yml.
